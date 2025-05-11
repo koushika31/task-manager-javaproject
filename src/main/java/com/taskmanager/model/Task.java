@@ -24,6 +24,10 @@ public class Task {
     @Column(nullable = false)
     private boolean completed = false;
     
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "category_id")
+    private Category category;
+    
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
     

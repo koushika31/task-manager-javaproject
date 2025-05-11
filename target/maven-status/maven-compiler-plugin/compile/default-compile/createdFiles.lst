@@ -1,6 +1,13 @@
+com\taskmanager\repository\CategoryRepository.class
 com\taskmanager\repository\TaskRepository.class
 com\taskmanager\service\impl\TaskServiceImpl.class
-com\taskmanager\service\TaskService.class
-com\taskmanager\model\Task.class
+com\taskmanager\controller\CategoryController.class
+com\taskmanager\model\Category.class
 com\taskmanager\controller\TaskController.class
 com\taskmanager\TaskManagerApplication.class
+com\taskmanager\service\CategoryService.class
+com\taskmanager\service\TaskService.class
+com\taskmanager\controller\OpenAIController.class
+com\taskmanager\model\Task.class
+com\taskmanager\service\impl\CategoryServiceImpl.class
+com\taskmanager\TaskManagerApplication$1.class
